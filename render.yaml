@@ -1,6 +1,6 @@
 services:
   # Base de datos PostgreSQL
-  - type: pserv
+  - type: postgres
     name: tienda-libro-db
     plan: free
     region: oregon
