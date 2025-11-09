@@ -1,0 +1,623 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Admin",
+      "email": "admin@gamil.com",
+      "contrasena": "12345",
+      "numeroTelefonico": "54321",
+      "direccion": {
+        "calle": "admin",
+        "ciudad": "admin",
+        "estado": "admin",
+        "codigoPostal": "4000",
+        "pais": "admin"
+      },
+      "rol": "ADMINISTRADOR"
+    }
+  ],
+
+  "categorias": [
+    {
+      "nombre": "Ficción"
+    },
+    {
+      "nombre": "No Ficción"
+    },
+    {
+      "nombre": "Ciencia y Tecnología"
+    },
+    {
+      "nombre": "Historia"
+    },
+    {
+      "nombre": "Biografía"
+    },
+    {
+      "nombre": "Autoayuda"
+    },
+    {
+      "nombre": "Negocios"
+    },
+    {
+      "nombre": "Programación"
+    },
+    {
+      "nombre": "Infantil"
+    },
+    {
+      "nombre": "Juvenil"
+    },
+    {
+      "nombre": "Romance"
+    },
+    {
+      "nombre": "Misterio"
+    },
+    {
+      "nombre": "Fantasía"
+    },
+    {
+      "nombre": "Terror"
+    },
+    {
+      "nombre": "Ciencia Ficción"
+    },
+    {
+      "nombre": "Poesía"
+    },
+    {
+      "nombre": "Arte"
+    },
+    {
+      "nombre": "Cocina"
+    },
+    {
+      "nombre": "Viajes"
+    },
+    {
+      "nombre": "Religión"
+    }
+  ],
+  "libros": [
+  {
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "descripcion": "La historia épica de la familia Buendía en el mítico pueblo de Macondo.",
+    "imagenUrl": "https://i.postimg.cc/cgnDSStL/1.jpg",
+    "precio": 8500,
+    "stock": 20,
+    "idCategoria": 1
+  },
+  {
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "descripcion": "Una distopía que muestra un mundo controlado por la vigilancia y la manipulación totalitaria.",
+    "imagenUrl": "https://i.postimg.cc/5YCPVVQy/2.jpg",
+    "precio": 7200,
+    "stock": 18,
+    "idCategoria": 1
+  },
+  {
+    "titulo": "El gran Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "descripcion": "Una mirada crítica a la sociedad y el sueño americano en los años 20.",
+    "imagenUrl": "https://i.postimg.cc/T5vt24nx/3.jpg",
+    "precio": 6500,
+    "stock": 25,
+    "idCategoria": 1
+  },
+  {
+    "titulo": "Sapiens: De animales a dioses",
+    "autor": "Yuval Noah Harari",
+    "descripcion": "Una exploración sobre cómo el Homo sapiens llegó a dominar el planeta.",
+    "imagenUrl": "https://i.postimg.cc/q6H1B520/4.jpg",
+    "precio": 9800,
+    "stock": 15,
+    "idCategoria": 2
+  },
+  {
+    "titulo": "Educated (Una educación)",
+    "autor": "Tara Westover",
+    "descripcion": "La historia real de una mujer criada en un entorno aislado que busca la educación como forma de liberación.",
+    "imagenUrl": "https://i.postimg.cc/XGC2bbBp/5.jpg",
+    "precio": 8700,
+    "stock": 12,
+    "idCategoria": 2
+  },
+  {
+    "titulo": "El poder del ahora",
+    "autor": "Eckhart Tolle",
+    "descripcion": "Una guía espiritual que enseña la importancia de vivir plenamente en el presente.",
+    "imagenUrl": "https://i.postimg.cc/vxw08N5Q/6.jpg",
+    "precio": 6400,
+    "stock": 20,
+    "idCategoria": 2
+  },
+  {
+    "titulo": "Breves respuestas a las grandes preguntas",
+    "autor": "Stephen Hawking",
+    "descripcion": "Hawking responde a los grandes enigmas del universo con claridad y humor.",
+    "imagenUrl": "https://i.postimg.cc/n9f3VPqF/7.jpg",
+    "precio": 9100,
+    "stock": 14,
+    "idCategoria": 3
+  },
+  {
+    "titulo": "El gen: Una historia íntima",
+    "autor": "Siddhartha Mukherjee",
+    "descripcion": "Una fascinante exploración sobre la historia y el futuro de la genética.",
+    "imagenUrl": "https://i.postimg.cc/2LN0jKnj/8.jpg",
+    "precio": 10300,
+    "stock": 10,
+    "idCategoria": 3
+  },
+  {
+    "titulo": "Cosmos",
+    "autor": "Carl Sagan",
+    "descripcion": "Un clásico de la divulgación científica que explora el universo y nuestro lugar en él.",
+    "imagenUrl": "https://i.postimg.cc/zHYxDcTX/9.jpg",
+    "precio": 9500,
+    "stock": 17,
+    "idCategoria": 3
+  },
+  {
+    "titulo": "Historia del siglo XX",
+    "autor": "Eric Hobsbawm",
+    "descripcion": "Un análisis profundo de los cambios sociales, políticos y económicos del siglo pasado.",
+    "imagenUrl": "https://i.postimg.cc/CnpcMQbK/10.jpg",
+    "precio": 8800,
+    "stock": 11,
+    "idCategoria": 4
+  },
+  {
+    "titulo": "Los orígenes del totalitarismo",
+    "autor": "Hannah Arendt",
+    "descripcion": "Un estudio esencial sobre las raíces del nazismo y el estalinismo.",
+    "imagenUrl": "https://i.postimg.cc/Wqc5pH03/11.jpg",
+    "precio": 9900,
+    "stock": 9,
+    "idCategoria": 4
+  },
+  {
+    "titulo": "La Segunda Guerra Mundial",
+    "autor": "Antony Beevor",
+    "descripcion": "Una obra monumental sobre el conflicto más devastador del siglo XX.",
+    "imagenUrl": "https://i.postimg.cc/30Qtrc2W/12.jpg",
+    "precio": 11200,
+    "stock": 10,
+    "idCategoria": 4
+  },
+  {
+    "titulo": "Steve Jobs",
+    "autor": "Walter Isaacson",
+    "descripcion": "La biografía autorizada del cofundador de Apple, basada en más de 40 entrevistas.",
+    "imagenUrl": "https://i.postimg.cc/LgFx4bj8/13.jpg",
+    "precio": 9700,
+    "stock": 13,
+    "idCategoria": 5
+  },
+  {
+    "titulo": "El diario de Ana Frank",
+    "autor": "Ana Frank",
+    "descripcion": "El testimonio conmovedor de una joven judía escondida durante la ocupación nazi.",
+    "imagenUrl": "https://i.postimg.cc/9wHLXnyw/14.jpg",
+    "precio": 6500,
+    "stock": 20,
+    "idCategoria": 5
+  },
+  {
+    "titulo": "Leonardo da Vinci",
+    "autor": "Walter Isaacson",
+    "descripcion": "Una biografía fascinante que combina arte, ciencia y genio creativo.",
+    "imagenUrl": "https://i.postimg.cc/7JrKPWS2/15.jpg",
+    "precio": 9900,
+    "stock": 8,
+    "idCategoria": 5
+  },
+  {
+    "titulo": "Los 7 hábitos de la gente altamente efectiva",
+    "autor": "Stephen R. Covey",
+    "descripcion": "Un clásico de desarrollo personal que propone hábitos para alcanzar la efectividad y el equilibrio.",
+    "imagenUrl": "https://i.postimg.cc/n9f3VPqm/16.jpg",
+    "precio": 7200,
+    "stock": 25,
+    "idCategoria": 6
+  },
+  {
+    "titulo": "Hábitos atómicos",
+    "autor": "James Clear",
+    "descripcion": "Cómo pequeños cambios pueden producir grandes transformaciones en tu vida.",
+    "imagenUrl": "https://i.postimg.cc/dZc5QxGd/17.jpg",
+    "precio": 8800,
+    "stock": 18,
+    "idCategoria": 6
+  },
+  {
+    "titulo": "El monje que vendió su Ferrari",
+    "autor": "Robin Sharma",
+    "descripcion": "Una fábula espiritual sobre el éxito, la felicidad y la realización personal.",
+    "imagenUrl": "https://i.postimg.cc/30Qtrc22/18.jpg",
+    "precio": 6900,
+    "stock": 19,
+    "idCategoria": 6
+  },
+  {
+    "titulo": "Padre rico, padre pobre",
+    "autor": "Robert T. Kiyosaki",
+    "descripcion": "Lecciones sobre educación financiera y cómo alcanzar la independencia económica.",
+    "imagenUrl": "https://i.postimg.cc/D43xfM1q/19.jpg",
+    "precio": 7700,
+    "stock": 22,
+    "idCategoria": 7
+  },
+  {
+    "titulo": "Los secretos de la mente millonaria",
+    "autor": "T. Harv Eker",
+    "descripcion": "Explora cómo los patrones mentales afectan nuestra relación con el dinero.",
+    "imagenUrl": "https://i.postimg.cc/q6H1B52s/20.jpg",
+    "precio": 6800,
+    "stock": 16,
+    "idCategoria": 7
+  },
+  {
+    "titulo": "La estrategia del océano azul",
+    "autor": "W. Chan Kim y Renée Mauborgne",
+    "descripcion": "Una guía para crear mercados sin competencia mediante la innovación.",
+    "imagenUrl": "https://i.postimg.cc/jnYMqFy6/21.jpg",
+    "precio": 9300,
+    "stock": 11,
+    "idCategoria": 7
+  },
+  {
+    "titulo": "Clean Code",
+    "autor": "Robert C. Martin",
+    "descripcion": "Un referente esencial sobre las mejores prácticas para escribir código limpio y mantenible.",
+    "imagenUrl": "https://i.postimg.cc/64xM6mCf/22.jpg",
+    "precio": 12500,
+    "stock": 14,
+    "idCategoria": 8
+  },
+  {
+    "titulo": "Eloquent JavaScript",
+    "autor": "Marijn Haverbeke",
+    "descripcion": "Una introducción moderna y práctica al lenguaje JavaScript.",
+    "imagenUrl": "https://i.postimg.cc/0K1V5B7n/23.jpg",
+    "precio": 9900,
+    "stock": 18,
+    "idCategoria": 8
+  },
+  {
+    "titulo": "Python Crash Course",
+    "autor": "Eric Matthes",
+    "descripcion": "Un curso completo para aprender Python con proyectos prácticos.",
+    "imagenUrl": "https://i.postimg.cc/y3CL6b0n/24.jpg",
+    "precio": 11000,
+    "stock": 12,
+    "idCategoria": 8
+  },
+  {
+    "titulo": "Donde viven los monstruos",
+    "autor": "Maurice Sendak",
+    "descripcion": "Un clásico cuento infantil sobre la imaginación y la aventura.",
+    "imagenUrl": "https://i.postimg.cc/7J1m5nN2/25.jpg",
+    "precio": 5600,
+    "stock": 30,
+    "idCategoria": 9
+  },
+  {
+    "titulo": "El principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "descripcion": "Una fábula poética sobre la amistad, el amor y la infancia.",
+    "imagenUrl": "https://i.postimg.cc/D4QBSPcG/26.jpg",
+    "precio": 6100,
+    "stock": 35,
+    "idCategoria": 9
+  },
+  {
+    "titulo": "Matilda",
+    "autor": "Roald Dahl",
+    "descripcion": "La historia de una niña brillante con poderes especiales y una mente curiosa.",
+    "imagenUrl": "https://i.postimg.cc/8fdt7mbW/27.jpg",
+    "precio": 6700,
+    "stock": 28,
+    "idCategoria": 9
+  },
+  {
+    "titulo": "Bajo la misma estrella",
+    "autor": "John Green",
+    "descripcion": "Una historia de amor y pérdida entre dos adolescentes con cáncer.",
+    "imagenUrl": "https://i.postimg.cc/N28pKkxm/28.jpg",
+    "precio": 7800,
+    "stock": 20,
+    "idCategoria": 10
+  },
+  {
+    "titulo": "Los juegos del hambre",
+    "autor": "Suzanne Collins",
+    "descripcion": "Una trilogía distópica sobre la lucha por la libertad y la justicia.",
+    "imagenUrl": "https://i.postimg.cc/FkbDYVx0/29.jpg",
+    "precio": 8500,
+    "stock": 22,
+    "idCategoria": 10
+  },
+  {
+    "titulo": "Ciudades de papel",
+    "autor": "John Green",
+    "descripcion": "Una novela sobre el misterio, la amistad y el autodescubrimiento.",
+    "imagenUrl": "https://i.postimg.cc/N28pKkx7/30.jpg",
+    "precio": 7200,
+    "stock": 17,
+    "idCategoria": 10
+  },
+  {
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Jane Austen",
+    "descripcion": "Un clásico sobre las relaciones sociales, el amor y los prejuicios de clase.",
+    "imagenUrl": "https://i.postimg.cc/H80Br9t9/31.jpg",
+    "precio": 6900,
+    "stock": 26,
+    "idCategoria": 11
+  },
+  {
+    "titulo": "Yo antes de ti",
+    "autor": "Jojo Moyes",
+    "descripcion": "Una historia romántica sobre el poder de transformar la vida de los demás.",
+    "imagenUrl": "https://i.postimg.cc/ct7XvBcm/32.jpg",
+    "precio": 7700,
+    "stock": 19,
+    "idCategoria": 11
+  },
+  {
+    "titulo": "After",
+    "autor": "Anna Todd",
+    "descripcion": "Un romance contemporáneo lleno de pasión, drama y redención.",
+    "imagenUrl": "https://i.postimg.cc/m138PySj/33.jpg",
+    "precio": 8500,
+    "stock": 15,
+    "idCategoria": 11
+  },
+  {
+    "titulo": "Asesinato en el Orient Express",
+    "autor": "Agatha Christie",
+    "descripcion": "Un misterio clásico del detective Hércules Poirot a bordo de un tren nevado.",
+    "imagenUrl": "https://i.postimg.cc/sGPwM4JT/34.jpg",
+    "precio": 7200,
+    "stock": 18,
+    "idCategoria": 12
+  },
+  {
+    "titulo": "El código Da Vinci",
+    "autor": "Dan Brown",
+    "descripcion": "Una intriga que combina arte, religión y secretos ocultos.",
+    "imagenUrl": "https://i.postimg.cc/H80Br9tP/35.jpg",
+    "precio": 9100,
+    "stock": 14,
+    "idCategoria": 12
+  },
+  {
+    "titulo": "La chica del tren",
+    "autor": "Paula Hawkins",
+    "descripcion": "Un thriller psicológico sobre la obsesión y la verdad.",
+    "imagenUrl": "https://i.postimg.cc/K37J1D5p/36.jpg",
+    "precio": 8300,
+    "stock": 16,
+    "idCategoria": 12
+  },
+  {
+    "titulo": "El señor de los anillos",
+    "autor": "J.R.R. Tolkien",
+    "descripcion": "Una épica historia de fantasía sobre la lucha entre el bien y el mal.",
+    "imagenUrl": "https://i.postimg.cc/D4QBSPcN/37.jpg",
+    "precio": 11500,
+    "stock": 12,
+    "idCategoria": 13
+  },
+  {
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "J.K. Rowling",
+    "descripcion": "El inicio de una saga mágica que marcó generaciones.",
+    "imagenUrl": "https://i.postimg.cc/p5QqmJB7/38.jpg",
+    "precio": 8800,
+    "stock": 20,
+    "idCategoria": 13
+  },
+  {
+    "titulo": "La historia interminable",
+    "autor": "Michael Ende",
+    "descripcion": "Una aventura fantástica donde la imaginación no tiene límites.",
+    "imagenUrl": "https://i.postimg.cc/q6cjNxG9/39.jpg",
+    "precio": 8200,
+    "stock": 17,
+    "idCategoria": 13
+  },
+  {
+    "titulo": "It (Eso)",
+    "autor": "Stephen King",
+    "descripcion": "Un grupo de amigos enfrenta a una entidad aterradora que toma forma de sus peores miedos.",
+    "imagenUrl": "https://i.postimg.cc/dZR4hj9b/40.jpg",
+    "precio": 9700,
+    "stock": 13,
+    "idCategoria": 14
+  },
+  {
+    "titulo": "El resplandor",
+    "autor": "Stephen King",
+    "descripcion": "Un escritor se ve atrapado en un hotel embrujado con su familia.",
+    "imagenUrl": "https://i.postimg.cc/LgkNJ3Td/41.jpg",
+    "precio": 8900,
+    "stock": 15,
+    "idCategoria": 14
+  },
+  {
+    "titulo": "Drácula",
+    "autor": "Bram Stoker",
+    "descripcion": "El clásico del vampiro que inspiró siglos de literatura y cine.",
+    "imagenUrl": "https://i.postimg.cc/m138PywW/42.jpg",
+    "precio": 6800,
+    "stock": 20,
+    "idCategoria": 14
+  },
+  {
+    "titulo": "Dune",
+    "autor": "Frank Herbert",
+    "descripcion": "Una epopeya de ciencia ficción sobre política, religión y supervivencia en un planeta desértico.",
+    "imagenUrl": "https://i.postimg.cc/kRNf2vcm/43.jpg",
+    "precio": 10500,
+    "stock": 11,
+    "idCategoria": 15
+  },
+  {
+    "titulo": "Fundación",
+    "autor": "Isaac Asimov",
+    "descripcion": "Una saga visionaria sobre el futuro del conocimiento y la civilización.",
+    "imagenUrl": "https://i.postimg.cc/K37J1DNy/44.jpg",
+    "precio": 9400,
+    "stock": 13,
+    "idCategoria": 15
+  },
+  {
+    "titulo": "Neuromante",
+    "autor": "William Gibson",
+    "descripcion": "El libro que definió el género cyberpunk y la idea del ciberespacio.",
+    "imagenUrl": "https://i.postimg.cc/3W2Lf3Hk/45.jpg",
+    "precio": 8600,
+    "stock": 16,
+    "idCategoria": 15
+  },
+  {
+    "titulo": "Veinte poemas de amor y una canción desesperada",
+    "autor": "Pablo Neruda",
+    "descripcion": "Una de las obras más apasionadas y conocidas de la poesía en español.",
+    "imagenUrl": "https://i.postimg.cc/MX1s3z8M/46.jpg",
+    "precio": 5400,
+    "stock": 25,
+    "idCategoria": 16
+  },
+  {
+    "titulo": "Las flores del mal",
+    "autor": "Charles Baudelaire",
+    "descripcion": "Un clásico de la poesía moderna que explora la belleza y la decadencia.",
+    "imagenUrl": "https://i.postimg.cc/kDWjY7dR/47.jpg",
+    "precio": 6000,
+    "stock": 20,
+    "idCategoria": 16
+  },
+  {
+    "titulo": "El amor después del amor",
+    "autor": "Rupi Kaur",
+    "descripcion": "Poesía contemporánea sobre amor, sanación y empoderamiento.",
+    "imagenUrl": "https://i.postimg.cc/t7Frv9Hx/48.jpg",
+    "precio": 6200,
+    "stock": 18,
+    "idCategoria": 16
+  },
+  {
+    "titulo": "El arte de la guerra",
+    "autor": "Sun Tzu",
+    "descripcion": "Un tratado clásico sobre estrategia, aplicable más allá del campo de batalla.",
+    "imagenUrl": "https://i.postimg.cc/7bSBtqyg/49.jpg",
+    "precio": 5700,
+    "stock": 30,
+    "idCategoria": 17
+  },
+  {
+    "titulo": "La historia del arte",
+    "autor": "E.H. Gombrich",
+    "descripcion": "Una introducción magistral a la evolución del arte a lo largo de los siglos.",
+    "imagenUrl": "https://i.postimg.cc/0r7tX9qm/50.jpg",
+    "precio": 10800,
+    "stock": 9,
+    "idCategoria": 17
+  },
+  {
+    "titulo": "Renoir: Intimidad",
+    "autor": "Guillaume Aral",
+    "descripcion": "Un recorrido visual por la vida y obra del pintor impresionista francés.",
+    "imagenUrl": "https://i.postimg.cc/vD5P2Gd7/51.jpg",
+    "precio": 9600,
+    "stock": 12,
+    "idCategoria": 17
+  },
+  {
+    "titulo": "La cocina de la felicidad",
+    "autor": "Jamie Oliver",
+    "descripcion": "Recetas simples y saludables con un toque personal del reconocido chef británico.",
+    "imagenUrl": "https://i.postimg.cc/YjQXDtwz/52.jpg",
+    "precio": 7500,
+    "stock": 14,
+    "idCategoria": 18
+  },
+  {
+    "titulo": "Cocina italiana de la abuela",
+    "autor": "Sofía Loren",
+    "descripcion": "Recetas tradicionales italianas llenas de sabor y recuerdos familiares.",
+    "imagenUrl": "https://i.postimg.cc/fkYHqMhB/53.jpg",
+    "precio": 7200,
+    "stock": 16,
+    "idCategoria": 18
+  },
+  {
+    "titulo": "Pan casero",
+    "autor": "Ibán Yarza",
+    "descripcion": "Guía práctica para hacer pan artesanal con técnicas sencillas.",
+    "imagenUrl": "https://i.postimg.cc/z3Td2q1x/54.jpg",
+    "precio": 6800,
+    "stock": 20,
+    "idCategoria": 18
+  },
+  {
+    "titulo": "Comer, rezar, amar",
+    "autor": "Elizabeth Gilbert",
+    "descripcion": "Un viaje de autodescubrimiento por Italia, India e Indonesia.",
+    "imagenUrl": "https://i.postimg.cc/c6fDkdND/55.jpg",
+    "precio": 7500,
+    "stock": 18,
+    "idCategoria": 19
+  },
+  {
+    "titulo": "En el camino",
+    "autor": "Jack Kerouac",
+    "descripcion": "El clásico de la generación beat, una oda a la libertad y el viaje interior.",
+    "imagenUrl": "https://i.postimg.cc/dDGWNJKH/56.jpg",
+    "precio": 7200,
+    "stock": 17,
+    "idCategoria": 19
+  },
+  {
+    "titulo": "Vagabundeando en el eje del mal",
+    "autor": "Juan Pablo Villarino",
+    "descripcion": "Relato de un viaje a dedo a través de Medio Oriente.",
+    "imagenUrl": "https://i.postimg.cc/F7mT2w9g/57.jpg",
+    "precio": 6900,
+    "stock": 15,
+    "idCategoria": 19
+  },
+  {
+    "titulo": "La Biblia",
+    "autor": "Varios autores",
+    "descripcion": "El texto sagrado del cristianismo, base espiritual y moral para millones de personas.",
+    "imagenUrl": "https://i.postimg.cc/8jDZqx1m/58.jpg",
+    "precio": 8500,
+    "stock": 25,
+    "idCategoria": 20
+  },
+  {
+    "titulo": "El Corán",
+    "autor": "Mahoma",
+    "descripcion": "El libro sagrado del islam, con enseñanzas espirituales y éticas.",
+    "imagenUrl": "https://i.postimg.cc/CzYcW9Fm/59.jpg",
+    "precio": 8200,
+    "stock": 20,
+    "idCategoria": 20
+  },
+  {
+    "titulo": "El poder de la hora interior",
+    "autor": "Deepak Chopra",
+    "descripcion": "Una reflexión espiritual sobre la conexión entre el alma y el universo.",
+    "imagenUrl": "https://i.postimg.cc/8jDZqx1y/60.jpg",
+    "precio": 6700,
+    "stock": 18,
+    "idCategoria": 20
+  }
+]
+}

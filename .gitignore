@@ -1,0 +1,40 @@
+# ========================
+# Archivos y carpetas de Maven
+# ========================
+/target/           # Carpeta de compilación de Maven
+!.mvn/wrapper/maven-wrapper.jar  # excepto el wrapper
+
+# ========================
+# Archivos y carpetas de IntelliJ IDEA
+# ========================
+.idea/             # Configuración del proyecto de IDEA
+*.iml              # Archivos de módulos de IDEA
+*.iws              # (opcional) antiguos archivos de workspace de IDEA
+/out/              # Carpeta de compilación de IDEA (si existe)
+
+# ========================
+# Archivos de sistema
+# ========================
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# ========================
+# Archivos de logs
+# ========================
+*.log
+
+# ========================
+# Archivos temporales de Java
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+
+# ========================
+# Dependencias locales
+# ========================
+/lib/               # si agregas librerías locales
+
+
+/src/main/resources/application.properties
