@@ -1,13 +1,12 @@
-services:
-  # Base de datos PostgreSQL
-  - type: postgres
-    name: tienda-libro-db
+databases:
+  - name: tienda-libro-db
     plan: free
     region: oregon
     databaseName: tienda_libro
-    databaseUser: tienda_libro_user
+    user: tienda_libro_user
     ipAllowList: []  # Permite conexiones desde cualquier IP (necesario para Render)
 
+services:
   # Backend Spring Boot
   - type: web
     name: tienda-libro-backend
