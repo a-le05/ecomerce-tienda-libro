@@ -1,0 +1,61 @@
+services:
+  # Base de datos PostgreSQL
+  - type: pserv
+    name: tienda-libro-db
+    plan: free
+    region: oregon
+    databaseName: tienda_libro
+    databaseUser: tienda_libro_user
+    ipAllowList: []  # Permite conexiones desde cualquier IP (necesario para Render)
+
+  # Backend Spring Boot
+  - type: web
+    name: tienda-libro-backend
+    runtime: java
+    plan: free
+    region: oregon
+    buildCommand: cd backend && ./mvnw clean install -DskipTests
+    startCommand: cd backend && java -jar target/tienda_libro-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: "21"
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: DATABASE_URL
+        fromDatabase:
+          name: tienda-libro-db
+          property: connectionString
+      - key: MERCADOPAGO_ACCESS_TOKEN
+        sync: false  # Debes configurarlo manualmente en el panel de Render
+      - key: JWT_SECRET
+        generateValue: true  # Render generará un valor aleatorio seguro
+      - key: FRONTEND_URL
+        sync: false  # Lo configurarás después de desplegar el frontend
+      - key: BACKEND_URL
+        value: https://tienda-libro-backend.onrender.com
+    healthCheckPath: /actuator/health
+    autoDeploy: true
+
+  # Frontend Vue.js
+  - type: web
+    name: tienda-libro-frontend
+    runtime: static
+    plan: free
+    region: oregon
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://tienda-libro-backend.onrender.com
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+    autoDeploy: true

@@ -38,3 +38,4 @@ Thumbs.db          # Windows
 
 
 /src/main/resources/application.properties
+frontend/node_modules/
