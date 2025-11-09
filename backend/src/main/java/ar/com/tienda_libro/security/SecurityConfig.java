@@ -30,6 +30,9 @@ public class SecurityConfig {
                 .cors(cors -> {})
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth -> auth
+                        //  Actuator health check (necesario para Render)
+                        .requestMatchers("/actuator/health", "/actuator/health/**").permitAll()
+
                         //  Swagger y OpenAPI públicos
                         .requestMatchers(
                                 "/swagger-ui.html",
@@ -55,7 +58,7 @@ public class SecurityConfig {
                         //  Tod lo demás requiere autenticación
                         .anyRequest().authenticated()
                 )
-                // Aquí agregamos el filtro JWT **antes de UsernamePasswordAuthenticationFilter**
+                // Aquí agregamos el filtro JWT *antes de UsernamePasswordAuthenticationFilter*
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
