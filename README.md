@@ -288,24 +288,6 @@ Pedido (1) ----< (N) DetallePedido >---- (1) Libro
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abrir un Pull Request
 
-## 📝 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
-## 👤 Autor
-
-**Tu Nombre**
-
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-
-## 🙏 Agradecimientos
-
-- Spring Boot Team
-- Vue.js Team
-- Mercado Pago Developers
-- Comunidad de desarrolladores
-
 ---
 
 ⭐ Si te gustó este proyecto, dale una estrella en GitHub!
